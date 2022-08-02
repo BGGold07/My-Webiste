@@ -1,27 +1,28 @@
-:root{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececece;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+*{
+    color: white;
 }
-body{
-    color: black;
-    background-color: white;
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-body ::-webkit-scrollbar{
-    width:0.25rem;
+li {
+    float: left;
 }
-body ::-webkit-scrollbar-track{
-    background: #1e1e24;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
-body ::-webkit-scrollbar-thumb{
-    background: #4986b8;
+
+li a:hover {
+    background-color: #111;
 }
-main{
-    margin-left: 5rem;
-    padding: 1rem;
+.twitter-timeline{
+    margin:auto;
 }
